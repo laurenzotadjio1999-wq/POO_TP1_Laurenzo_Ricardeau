@@ -1,0 +1,14 @@
+Index: Classe_Journal.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Classe Journal qui hérite de Document\r\nclass Journal(Document):\r\n    def __init__(self, titre, date_parution):\r\n        super().__init__(titre)\r\n        self.date_parution = date_parution\r\n\r\n    def __str__(self):\r\n        return f\"Journal - {super().__str__()} | Paru le: {self.date_parution}\"
+===================================================================
+diff --git a/Classe_Journal.py b/Classe_Journal.py
+--- a/Classe_Journal.py	(revision 898beb1d69a1a8601b06d39d9af8998b53e06337)
++++ b/Classe_Journal.py	(date 1764891718180)
+@@ -1,4 +1,5 @@
+ # Classe Journal qui hérite de Document
++import  Classe_Document as Document
+ class Journal(Document):
+     def __init__(self, titre, date_parution):
+         super().__init__(titre)

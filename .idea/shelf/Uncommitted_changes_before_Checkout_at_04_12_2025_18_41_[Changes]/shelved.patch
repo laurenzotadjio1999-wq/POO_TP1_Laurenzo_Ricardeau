@@ -1,0 +1,14 @@
+Index: Class_Volume.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Classe Volume qui hérite de Document\r\nclass Volume(Document):\r\n    def __init__(self, titre, nom_auteur):\r\n        super().__init__(titre)\r\n        self.nom_auteur = nom_auteur\r\n\r\n    def __str__(self):\r\n        return f\"{super().__str__()} | Auteur: {self.nom_auteur}\"
+===================================================================
+diff --git a/Class_Volume.py b/Class_Volume.py
+--- a/Class_Volume.py	(revision 771ca7febc989a2f6ceddbd62baf724a49ff8f9c)
++++ b/Class_Volume.py	(date 1764891563687)
+@@ -1,4 +1,5 @@
+ # Classe Volume qui hérite de Document
++
+ class Volume(Document):
+     def __init__(self, titre, nom_auteur):
+         super().__init__(titre)

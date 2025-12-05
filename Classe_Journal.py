@@ -1,4 +1,5 @@
 # Classe Journal qui hérite de Document
+import Classe_Document as Document
 class Journal(Document):
     def __init__(self, titre, date_parution):
         super().__init__(titre)

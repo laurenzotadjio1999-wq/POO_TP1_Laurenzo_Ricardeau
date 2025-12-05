@@ -1,4 +1,5 @@
 # Classe Volume qui hérite de Document
+import Classe_Document as Document
 class Volume(Document):
     def __init__(self, titre, nom_auteur):
         super().__init__(titre)
