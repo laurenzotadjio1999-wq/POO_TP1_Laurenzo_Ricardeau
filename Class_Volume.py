@@ -1,3 +1,5 @@
+from xml.dom.minidom import Document
+
 # Classe Volume qui hérite de Document
 class Volume(Document):
     def __init__(self, titre, nom_auteur):
