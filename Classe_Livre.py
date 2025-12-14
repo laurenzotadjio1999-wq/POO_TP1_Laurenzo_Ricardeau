@@ -1,3 +1,5 @@
+
+from Class_Volume import Volume
 # Classe Livre (Hérite de Volume)
 class Livre(Volume):
     def __init__(self, titre, nom_auteur):
