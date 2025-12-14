@@ -1,0 +1,13 @@
+Index: Classe_Livre.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Classe Livre (Hérite de Volume)\r\nclass Livre(Volume):\r\n    def __init__(self, titre, nom_auteur):\r\n        super().__init__(titre, nom_auteur)\r\n        self.disponible = True\r\n\r\n    def __str__(self):\r\n        statut = \"Disponible\" if self.disponible else \"Emprunté\"\r\n        return f\"Livre - {super().__str__()} | Statut: {statut}\"
+===================================================================
+diff --git a/Classe_Livre.py b/Classe_Livre.py
+--- a/Classe_Livre.py	(revision 7db29d55356a959903c58efc84c2444fe94806ac)
++++ b/Classe_Livre.py	(date 1765683314037)
+@@ -1,3 +1,4 @@
++
+ # Classe Livre (Hérite de Volume)
+ class Livre(Volume):
+     def __init__(self, titre, nom_auteur):
