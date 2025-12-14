@@ -1,0 +1,51 @@
+Index: Class_Volume.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Classe Volume qui hérite de Document\r\nclass Volume(Document):\r\n    def __init__(self, titre, nom_auteur):\r\n        super().__init__(titre)\r\n        self.nom_auteur = nom_auteur\r\n\r\n    def __str__(self):\r\n        return f\"{super().__str__()} | Auteur: {self.nom_auteur}\"
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Class_Volume.py b/Class_Volume.py
+--- a/Class_Volume.py	(revision 7db29d55356a959903c58efc84c2444fe94806ac)
++++ b/Class_Volume.py	(date 1765488672061)
+@@ -1,4 +1,7 @@
+ # Classe Volume qui hérite de Document
++from Classe_Document import Document
++
++
+ class Volume(Document):
+     def __init__(self, titre, nom_auteur):
+         super().__init__(titre)
+Index: Classe_Document.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Classe Document\r\nclass Document:\r\n    # 1. CORRECTION: Définir le compteur statique au niveau de la classe\r\n    id_suivant = 1\r\n\r\n    def __init__(self, title):\r\n        self.id = Document.id_suivant\r\n        Document.id_suivant += 1\r\n        self.title = title\r\n    def __str__(self):\r\n        return f\"ID: {self.id} | Titre: {self.title}\"
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Classe_Document.py b/Classe_Document.py
+--- a/Classe_Document.py	(revision 7db29d55356a959903c58efc84c2444fe94806ac)
++++ b/Classe_Document.py	(date 1765488672069)
+@@ -2,7 +2,6 @@
+ class Document:
+     # 1. CORRECTION: Définir le compteur statique au niveau de la classe
+     id_suivant = 1
+-
+     def __init__(self, title):
+         self.id = Document.id_suivant
+         Document.id_suivant += 1
+Index: Classe Bibliotheque.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Classe Bibliothèque\r\nclass Bibliotheque:\r\n    def __init__(self):\r\n        self.liste_documents = {}\r\n        self.liste_adherents = {} # CORRECTION: Utiliser le pluriel et la minuscule pour la cohérence\r\n        self.liste_emprunts = []
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Classe Bibliotheque.py b/Classe Bibliotheque.py
+--- a/Classe Bibliotheque.py	(revision 7db29d55356a959903c58efc84c2444fe94806ac)
++++ b/Classe Bibliotheque.py	(date 1765685181224)
+@@ -1,3 +1,4 @@
++
+ # Classe Bibliothèque
+ class Bibliotheque:
+     def __init__(self):
