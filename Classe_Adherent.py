@@ -1,6 +1,6 @@
 # Classe Adhérent
 class Adherent:
-    prochain_id = 1001
+    prochain_id = 1
 
     def __init__(self, nom, prenom):
         self.id = Adherent.prochain_id
@@ -10,4 +10,5 @@ class Adherent:
         self.livres_empruntes = []
 
     def __str__(self):
-        return f"Adhérent ID: {self.id} | Nom: {self.prenom} {self.nom} | Emprunts: {len(self.livres_empruntes)}"
+        emprunts_str = ", ".join(map(str, self.livres_empruntes))
+        return f"ID: {self.id}, Nom: {self.nom} {self.prenom} | Emprunts: [{emprunts_str}]"
