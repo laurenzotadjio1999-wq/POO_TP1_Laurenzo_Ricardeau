@@ -2,7 +2,10 @@
 
 
 from Classe_Adherent import Adherent
+from Classe_Bibliotheque import Bibliotheque
 
+
+#from Classe_Bibliotheque import Bibliotheque
 
 
 def main():
