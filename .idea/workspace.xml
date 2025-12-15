@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="31-charger_données" />
+        <entry key="$PROJECT_DIR$" value="2-création-de-la-classe-journal" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,28 +30,27 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;laurenzotadjio1999-wq&quot;
+    &quot;assignee&quot;: &quot;durandrica-hue&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/laurenzotadjio1999-wq/POO_TP1_Laurenzo_Ricardeau.git&quot;,
-    &quot;accountId&quot;: &quot;6e6c9a5b-ed36-4097-b2e6-bd83da08a330&quot;
+    &quot;accountId&quot;: &quot;8a1493bc-9053-41a2-93c3-01de4f988fc6&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="36P1L67WRO8Ths5iZ0me9lB6h52" />
+  <component name="ProjectId" id="36Jg4MdMM3OXSGAu2remZVKuOyZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.Classe_Document.executor": "Run",
-    "Python.Classe_Journal.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.pratique_Solo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "12-classe-bibliothèque",
@@ -68,118 +67,48 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
-        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60911fe6-ebb0-4a45-8fb4-1658331649f7" name="Changes" comment="" />
-      <created>1764893333679</created>
+      <changelist id="602a5966-b392-424a-8050-0760572e1732" name="Changes" comment="" />
+      <created>1764729895803</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1764893333679</updated>
-      <workItem from="1765479853444" duration="48000" />
-      <workItem from="1765479919449" duration="7476000" />
+      <updated>1764729895803</updated>
     </task>
-    <task id="LOCAL-00001" summary="methode ajout des documents">
+    <task id="LOCAL-00001" summary="classe journal">
       <option name="closed" value="true" />
-      <created>1765683355863</created>
+      <created>1764730346915</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1765683355863</updated>
+      <updated>1764730346915</updated>
     </task>
-    <task id="LOCAL-00002" summary="methode ajouter document">
+    <task id="LOCAL-00002" summary="classe journal mise a jour">
       <option name="closed" value="true" />
-      <created>1765683723686</created>
+      <created>1765763175035</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1765683723686</updated>
+      <updated>1765763175035</updated>
     </task>
-    <task id="LOCAL-00003" summary="methode supprimer document">
+    <task id="LOCAL-00003" summary="classe journal mise a jour">
       <option name="closed" value="true" />
-      <created>1765684203696</created>
+      <created>1765763183921</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1765684203696</updated>
+      <updated>1765763183921</updated>
     </task>
-    <task id="LOCAL-00004" summary="methode retourner document">
-      <option name="closed" value="true" />
-      <created>1765684534937</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1765684534937</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Menu principal">
-      <option name="closed" value="true" />
-      <created>1765684863479</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1765684863479</updated>
-    </task>
-    <task id="LOCAL-00006" summary="fonction main">
-      <option name="closed" value="true" />
-      <created>1765685197699</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1765685197699</updated>
-    </task>
-    <task id="LOCAL-00007" summary="methode afficher documents">
-      <option name="closed" value="true" />
-      <created>1765685431184</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1765685431184</updated>
-    </task>
-    <task id="LOCAL-00008" summary="methode afficher emprunts">
-      <option name="closed" value="true" />
-      <created>1765685566683</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1765685566683</updated>
-    </task>
-    <task id="LOCAL-00009" summary="methode sauvegarder_donnees">
-      <option name="closed" value="true" />
-      <created>1765686010100</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1765686010100</updated>
-    </task>
-    <task id="LOCAL-00010" summary="methode charger_donnees">
-      <option name="closed" value="true" />
-      <created>1765686335685</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1765686335685</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="methode ajout des documents" />
-    <MESSAGE value="methode ajouter document" />
-    <MESSAGE value="methode supprimer document" />
-    <MESSAGE value="methode retourner document" />
-    <MESSAGE value="Menu principal" />
-    <MESSAGE value="fonction main" />
-    <MESSAGE value="methode afficher documents" />
-    <MESSAGE value="methode afficher emprunts" />
-    <MESSAGE value="methode sauvegarder_donnees" />
-    <MESSAGE value="methode charger_donnees" />
-    <option name="LAST_COMMIT_MESSAGE" value="methode charger_donnees" />
+    <MESSAGE value="classe journal" />
+    <MESSAGE value="classe journal mise a jour" />
+    <option name="LAST_COMMIT_MESSAGE" value="classe journal mise a jour" />
   </component>
 </project>
