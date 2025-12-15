@@ -3,7 +3,8 @@
 
 from Classe_Adherent import Adherent
 from Classe_Bibliotheque import Bibliotheque
-
+from afficher_menu import afficher_menu
+from gerer_ajout_document import gerer_ajout_document
 
 #from Classe_Bibliotheque import Bibliotheque
 
